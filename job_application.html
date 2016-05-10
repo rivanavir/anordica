@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <title>Anordica</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900italic,900,700,700italic,200,200italic,300,300italic,400italic,600,600italic' rel='stylesheet' type='text/css'>
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <div id="back-to-top"><i class="icon-chevron-up"></i></div>
+  <div id="contactWrap" class="contact-wrap">
+    <div class="txt-block text-center" data-contact-version="contactFormQuestion"><!-- to display add one of classes:message, contactForm or contactFormQuestion -->
+      <div class="icon text-center"><i class="icom-smbl-contact"></i></div>
+      <div class="cont-txt">contact us</div>
+    </div>
+    <div class="message-wrap">
+      <span class="close-contact" data-wrap-class="message"></span>
+      <div class="txt-wrap text-center">
+        <p>Thank you! Your message has been sent.</p>
+        <p>We will contact you within 24 hours!</p>
+      </div>
+    </div>
+    <div class="contact-form">
+      <span class="close-contact" data-wrap-class="contactForm"></span>
+      <form class="col-sm-10 col-sm-offset-1" action="/">
+        <div class="radio-wrap">
+          <div class="col-sm-6 radio-style">
+            <input type="radio" name="contact-form-radio" id="style-input-1">
+            <label for="style-input-1" class="anord-radio pull-left"></label>
+            <p class="radio-txt">Please contact me</p>
+          </div>
+          <div class="col-sm-6 radio-style">
+            <input type="radio" name="contact-form-radio" id="style-input-2">
+            <label for="style-input-2" class="anord-radio pull-left"></label>
+            <p class="radio-txt">Please send me more information</p>
+          </div>
+        </div>
+        <div class="input-wrap">
+          <div class="col-sm-6 input-layer">
+            <div class="form-group">
+              <input type="name" class="form-control" id="" name="" placeholder="Name*:">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="" name="" placeholder="E-mail*:">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="" name="" placeholder="Phone (optional):">
+            </div>
+          </div>
+          <div class="col-sm-6 input-layer">
+            <div class="form-group">
+              <textarea name="name" class="form-control" placeholder="Message*:" rows="3" cols="5"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <p class="help-txt pull-left">Required items indicates with *</p>
+          <button type="submit" class="btn btn-warning pull-right">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div class="contact-form-question">
+      <div class="form-wrap">
+        <span class="close-contact" data-wrap-class="contactFormQuestion"></span>
+        <form class="col-sm-10 col-sm-offset-1" action="/">
+          <div class="quest-wrap">
+            <p class="quest-ttl">Any questions?</p>
+            <p class="help-txt">To help us serve you better, please provide some information before we begin your chat</p>
+          </div>
+          <div class="input-wrap">
+            <div class="col-sm-6 input-layer">
+              <div class="form-group">
+                <input type="name" class="form-control" id="" name="" placeholder="Name*:">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="" name="" placeholder="E-mail*:">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="" name="" placeholder="Phone (optional):">
+              </div>
+            </div>
+            <div class="col-sm-6 input-layer">
+              <div class="form-group">
+                <textarea name="name" class="form-control" placeholder="Message*:" rows="3" cols="5"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <p class="help-txt pull-left">Required items indicates with *</p>
+            <button type="submit" class="btn btn-warning pull-right">Start chat</button>
+          </div>
+        </form>
+      </div>
+      <div class="profile-block">
+        <img src="images/quest-photo.jpg" alt="">
+        <p class="prof-ttl">Alexander Zolotarecski, PhD <br> CEO Anordica AB</p>
+        <p><a href="tel:+46704931043">+46 704 93 10 43</a></p>
+        <p><a href="mailto:alexander@anordica.se">alexander@anordica</a></p>
+        <p class="skype-icon"><a href="skype:loremipsum_anordica"><i class="icon-skype"></i> lorem ipsum_anordica</a></p>
+      </div>
+    </div>
+  </div>
+
+
+  <header>
+    <div class="contain">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" role="button">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-button"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <div class="hidden-xs">
+                <img src="images/main-logo.png" alt="" />
+              </div>
+              <div class="visible-xs">
+                <img src="images/main-logo-small.png" alt=""/>
+              </div>
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="soc-wrap navbar-right">
+              <li>
+                <a class="multi-link changeLang dropdown-toggle" href="#" id="languageDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icom-smbl-lang"></i></a>
+                <ul class="dropdown-menu language-drop" aria-labelledby="languageDrop">
+                  <li>
+                    <a href="#" class="active">
+                      <img src="./images/flag/img-1.jpg" alt="" />
+                      International
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./images/flag/img-2.jpg" alt="" />
+                      Finnish
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./images/flag/img-3.jpg" alt="" />
+                      Polish
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./images/flag/img-4.jpg" alt="" />
+                      Swedish
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="multi-link share-link dropdown-toggle" href="#" id="shareList" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icom-smbl-share"></i></a>
+                <ul class="dropdown-menu social-drop" aria-labelledby="shareList">
+                  <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                  <li><a href="#"><i class="icon-facebook"></i></a></li>
+                  <li><a href="#"><i class="icon-twitter"></i></a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="multi-link" href="#" id="topSearch"><i class="icom-smbl-search"></i></a>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company</a>
+                <div class="dropdown-menu sub-menu-wrap">
+                  <div class="sub-menu-layer">
+                    <ul class="sub-menu" id="sub-company1">
+                      <li class="active"><a href="#sub-company1">About Anordica</a></li>
+                      <li><a href="#">Social support program</a></li>
+                      <li><a href="#">Sustainability</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Applications</a>
+                <ul class="dropdown-menu sub-nav" aria-labelledby="">
+                  <li class="active"><a href="#">Applications1</a></li>
+                  <li><a href="#">Applications2</a></li>
+                  <li><a href="#">Applications3</a></li>
+                  <li><a href="#">Applications4</a></li>
+                </ul>
+              </li>
+              <li class="productItem">
+                <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Products</a>
+              </li>
+              <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Suppliers</a>
+                <ul class="dropdown-menu sub-nav" aria-labelledby="">
+                  <li class="active"><a href="#">Suppliers1</a></li>
+                  <li><a href="#">Suppliers2</a></li>
+                  <li><a href="#">Suppliers3</a></li>
+                  <li><a href="#">Suppliers4</a></li>
+                </ul>
+              </li>
+              <li><a href="#">New partner</a></li>
+              <li><a href="#">Media</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="mobile-menu" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="close-menu" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><i class="icon-double-angle-left pull-right"></i></div>
+        <div class="panel">
+          <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" role="button">Company <i class="icon-angle-up pull-right"></i></div>
+          <div id="collapse1" class="sub-level-1 panel-collapse collapse">
+            <div class="panel">
+              <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#collapse1" href="#subLevel11" role="button">About Anordica</div>
+              <div id="subLevel11" class="collapse in">
+                <ul class="sub-menu">
+                  <li><a href="#">Social support program</a></li>
+                  <li><a href="#">Sustainability</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#collapse1" href="#subLevel12" role="button">About Anordica</div>
+              <div id="subLevel12" class="collapse">
+                <ul class="sub-menu">
+                  <li><a href="#">Social support program</a></li>
+                  <li><a href="#">Sustainability</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-heading collapsed" role="tab" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="true" role="button">Applications <i class="icon-angle-up pull-right"></i></div>
+        </div>
+        <div class="panel">
+          <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" role="button">Products <i class="icon-angle-up pull-right"></i></div>
+          <div id="collapse3" class="sub-level-1 panel-collapse collapse">
+            <div class="panel">
+              <div class="panel-heading" data-toggle="collapse" data-parent="#collapse3" href="#subLevel31" role="button">By product category <i class="icon-angle-up pull-right"></i></div>
+              <div id="subLevel31" class="collapse in">
+                <div class="panel sub-level-2">
+                  <div class="panel-heading" data-toggle="collapse" data-parent="#subLevel31" href="#subLevel311" role="button">Steel Wire <i class="icon-angle-up black-icon pull-right"></i></div>
+                  <div id="subLevel311" class="collapse in">
+                    <ul class="sub-menu">
+                      <li><a href="#">Low-carbon steel wire</a></li>
+                      <li><a href="#">Low carbon galvanized wire</a></li>
+                      <li><a href="#">Medium- and high-carbon steel wire</a></li>
+                      <li><a href="#">Galvanized low-carbon wire</a></li>
+                      <li><a href="#">Pulp baling wire</a></li>
+                      <li><a href="#">Annealed wire for packing</a></li>
+                      <li><a href="#">Flat wire</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel33" href="#">Pre-stressed concrete wire and strands</div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel31" href="#subLevel312" role="button">Fibres <i class="icon-angle-up black-icon pull-right"></i></div>
+                  <div id="subLevel312" class="collapse">
+                    <ul class="sub-menu">
+                      <li><a href="#">Steel wire fibres</a></li>
+                      <li><a href="#">Systems for the dosing of steel and synthetic fibres</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel31" href="#">Cold drawn steel bars & coils</div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel31" href="#subLevel313" role="button">Netting & gabions <i class="icon-angle-up black-icon pull-right"></i></div>
+                  <div id="subLevel313" class="collapse">
+                    <ul class="sub-menu">
+                      <li><a href="#">Wire netting</a></li>
+                      <li><a href="#">Gabions</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel31" href="#">Hot rolled reinforcing bars</div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel31" href="#subLevel314" role="button">Welding equipment <i class="icon-angle-up black-icon pull-right"></i></div>
+                  <div id="subLevel314" class="collapse">
+                    <ul class="sub-menu">
+                      <li><a href="#">Wire cage welding equipment</a></li>
+                      <li><a href="#">Mesh welding equipment</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel31" href="#">Nails</div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel31" href="#">Wire rod</div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel31" href="#subLevel315" role="button">Abrasive <i class="icon-angle-up black-icon pull-right"></i></div>
+                  <div id="subLevel315" class="collapse">
+                    <ul class="sub-menu">
+                      <li><a href="#">Steel cut wire</a></li>
+                      <li><a href="#">Iron and steel shot and grit</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#collapse3" href="#subLevel32" role="button">By application <i class="icon-angle-up pull-right"></i></div>
+              <div id="subLevel32" class="collapse">
+                <div class="panel sub-level-2">
+                  <div class="panel-heading" data-toggle="collapse" data-parent="#subLevel32" href="#subLevel321" role="button">Building and construction <i class="icon-angle-up black-icon pull-right"></i></div>
+                  <div id="subLevel321" class="collapse in">
+                    <ul class="sub-menu">
+                      <li><a href="#">Steel wire fibres</a></li>
+                      <li><a href="#">Systems for dosing of steeland synthetic fibres</a></li>
+                      <li><a href="#">Pre-stressed concrete wireand strands</a></li>
+                      <li><a href="#">Low carbon galvanized wire</a></li>
+                      <li><a href="#">Wire netting</a></li>
+                      <li><a href="#">Gabions</a></li>
+                      <li><a href="#">Wire cage welding equipment</a></li>
+                      <li><a href="#">Mesh welding equipment</a></li>
+                      <li><a href="#">Hot rolled reinforcing bars</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel32" href="#subLevel322" role="button">Machinary <i class="icon-angle-up black-icon pull-right"></i></div>
+                  <div id="subLevel322" class="collapse">
+                    <ul class="sub-menu">
+                      <li><a href="#">Medium- and high-carbonsteel wire</a></li>
+                      <li><a href="#">Steel wire rod</a></li>
+                      <li><a href="#">Cold heading & extrusion wire</a></li>
+                      <li><a href="#">Cold drawn steel bars & coils</a></li>
+                      <li><a href="#">Abrasive</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel32" href="#subLevel323" role="button">Pulp & paper industry <i class="icon-angle-up black-icon pull-right"></i></div>
+                  <div id="subLevel323" class="collapse">
+                    <ul class="sub-menu">
+                      <li><a href="#">Pulp baling wire</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel32" href="#subLevel324" role="button">Recycling & packing <i class="icon-angle-up black-icon pull-right"></i></div>
+                  <div id="subLevel324" class="collapse">
+                    <ul class="sub-menu">
+                      <li><a href="#">Annealed wire for packing</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel32" href="#subLevel325" role="button">Retail furnishings, consumer durables manufacturing <i class="icon-angle-up black-icon pull-right"></i></div>
+                  <div id="subLevel325" class="collapse">
+                    <ul class="sub-menu">
+                      <li><a href="#">Low carbon wire, wet drawn and ultrasonic cleaned</a></li>
+                      <li><a href="#">Low-carbon steel wire</a></li>
+                      <li><a href="#">Flat wire</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#collapse3" href="#subLevel33" role="button">By supplier <i class="icon-angle-up pull-right"></i></div>
+              <div id="subLevel33" class="collapse">
+                <div class="panel sub-level-2">
+                  <div class="panel-heading" data-toggle="collapse" data-parent="#subLevel33" href="#subLevel331" role="button">Steel Wire <i class="icon-angle-up black-icon pull-right"></i></div>
+                  <div id="subLevel331" class="collapse in">
+                    <ul class="sub-menu">
+                      <li><a href="#">Low-carbon steel wire</a></li>
+                      <li><a href="#">Low carbon galvanized wire</a></li>
+                      <li><a href="#">Medium- and high-carbon steel wire</a></li>
+                      <li><a href="#">Galvanized low-carbon wire</a></li>
+                      <li><a href="#">Pulp baling wire</a></li>
+                      <li><a href="#">Annealed wire for packing</a></li>
+                      <li><a href="#">Flat wire</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel33" href="#">Pre-stressed concrete wire and strands</div>
+                </div>
+                <div class="panel sub-level-2">
+                  <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#subLevel33" href="#subLevel335" role="button">Abrasive <i class="icon-angle-up black-icon pull-right"></i></div>
+                  <div id="subLevel335" class="collapse">
+                    <ul class="sub-menu">
+                      <li><a href="#">Steel cut wire</a></li>
+                      <li><a href="#">Iron and steel shot and grit</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-heading collapsed" role="tab" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="true">Suppliers <i class="icon-angle-up pull-right"></i></div>
+        </div>
+        <div class="panel">
+          <div class="panel-heading"><a href="#">New partner</a></div>
+        </div>
+        <div class="panel">
+          <div class="panel-heading"><a href="#">Media</a></div>
+        </div>
+        <div class="panel">
+          <div class="panel-heading collapsed" role="tab" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="true">Contact <i class="icon-angle-up pull-right"></i></div>
+        </div>
+      </div>
+
+      <div class="big-sub-menu-wrap sub-menu-hidden">
+
+        <!-- Nav tabs -->
+        <ul class="col-md-3 nav nav-tabs nav-stacked">
+          <li class="active"><a href="#productTab" data-toggle="tab">By product category <i class="icon-angle-right"></i></a></li>
+          <li><a href="#applicationTab" data-toggle="tab">By application <i class="icon-angle-right"></i></a></li>
+          <li><a href="#supplierTab" data-toggle="tab">By supplier <i class="icon-angle-right"></i></a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="col-md-9 tab-content">
+          <div role="tabpanel" class="tab-pane fade in active" id="productTab">
+            <div class="col-md-4">
+              <p class="tab-ttl">Steel Wire</p>
+              <ul class="tab-list">
+                <li><a href="#">Low-carbon steel wire</a></li>
+                <li><a href="#">Low carbon galvanized wire</a></li>
+                <li><a href="#">Medium- and high-carbon steel wire</a></li>
+                <li><a href="#">Galvanized low-carbon wire</a></li>
+                <li><a href="#">Pulp baling wire</a></li>
+                <li><a href="#">Annealed wire for packing</a></li>
+                <li><a href="#">Flat wire</a></li>
+              </ul>
+              <p class="tab-ttl">Pre-stressed concrete wire and strands</p>
+            </div>
+            <div class="col-md-4">
+              <p class="tab-ttl">Fibres</p>
+              <ul class="tab-list">
+                <li><a href="#">Steel wire fibres</a></li>
+                <li><a href="#">Systems for the dosing of steel and synthetic fibres</a></li>
+              </ul>
+              <p class="tab-ttl">Cold drawn steel bars & coils</p>
+              <ul class="tab-list">
+                <li><a href="#"></a></li>
+              </ul>
+              <p class="tab-ttl">Netting & gabions</p>
+              <ul class="tab-list">
+                <li><a href="#">Wire netting</a></li>
+                <li><a href="#">Gabions</a></li>
+              </ul>
+              <p class="tab-ttl">Hot rolled reinforcing bars</p>
+            </div>
+            <div class="col-md-4">
+              <p class="tab-ttl">Welding equipment</p>
+              <ul class="tab-list">
+                <li><a href="#">Wire cage welding equipment</a></li>
+                <li><a href="#">Mesh welding equipment</a></li>
+              </ul>
+              <p class="tab-ttl">Nails</p>
+              <ul class="tab-list">
+                <li><a href="#"></a></li>
+              </ul>
+              <p class="tab-ttl">Wire rod</p>
+              <ul class="tab-list">
+                <li><a href="#"></a></li>
+              </ul>
+              <p class="tab-ttl">Abrasive</p>
+              <ul class="tab-list">
+                <li><a href="#">Steel cut wire</a></li>
+                <li><a href="#">Iron and steel shot and grit</a></li>
+              </ul>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="applicationTab">
+            <div class="col-md-4">
+              <p class="tab-ttl">Building and construction</p>
+              <ul class="tab-list">
+                <li><a href="#">Steel wire fibres</a></li>
+                <li><a href="#">Systems for dosing of steeland synthetic fibres</a></li>
+                <li><a href="#">Pre-stressed concrete wireand strands</a></li>
+                <li><a href="#">Low carbon galvanized wire</a></li>
+                <li><a href="#">Wire netting</a></li>
+                <li><a href="#">Gabions</a></li>
+                <li><a href="#">Wire cage welding equipment</a></li>
+                <li><a href="#">Mesh welding equipment</a></li>
+                <li><a href="#">Hot rolled reinforcing bars</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <p class="tab-ttl">Machinary</p>
+              <ul class="tab-list">
+                <li><a href="#">Medium- and high-carbonsteel wire</a></li>
+                <li><a href="#">Steel wire rod</a></li>
+                <li><a href="#">Cold heading & extrusion wire</a></li>
+                <li><a href="#">Cold drawn steel bars & coils</a></li>
+                <li><a href="#">Abrasive</a></li>
+              </ul>
+              <p class="tab-ttl">Pulp & paper industry</p>
+              <ul class="tab-list">
+                <li><a href="#">Pulp baling wire</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <p class="tab-ttl">Recycling & packing</p>
+              <ul class="tab-list">
+                <li><a href="#">Annealed wire for packing</a></li>
+              </ul>
+              <p class="tab-ttl">Retail furnishings, consumer durables manufacturing</p>
+              <ul class="tab-list">
+                <li><a href="#">Low carbon wire, wet drawn and ultrasonic cleaned</a></li>
+                <li><a href="#">Low-carbon steel wire</a></li>
+                <li><a href="#">Flat wire</a></li>
+              </ul>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane  fade" id="supplierTab">
+            <div class="col-md-4">
+              <p class="tab-ttl">Steel Wire</p>
+              <ul class="tab-list">
+                <li><a href="#">Low-carbon steel wire</a></li>
+                <li><a href="#">Low carbon galvanized wire</a></li>
+                <li><a href="#">Medium- and high-carbon steel wire</a></li>
+                <li><a href="#">Galvanized low-carbon wire</a></li>
+                <li><a href="#">Pulp baling wire</a></li>
+                <li><a href="#">Annealed wire for packing</a></li>
+                <li><a href="#">Flat wire</a></li>
+              </ul>
+              <p class="tab-ttl">Pre-stressed concrete wire and strands</p>
+            </div>
+            <div class="col-md-4">
+              <p class="tab-ttl">Fibres</p>
+              <ul class="tab-list">
+                <li><a href="#">Steel wire fibres</a></li>
+                <li><a href="#">Systems for the dosing of steel and synthetic fibres</a></li>
+              </ul>
+              <p class="tab-ttl">Cold drawn steel bars & coils</p>
+              <p class="tab-ttl">Netting & gabions</p>
+              <ul class="tab-list">
+                <li><a href="#">Wire netting</a></li>
+                <li><a href="#">Gabions</a></li>
+              </ul>
+              <p class="tab-ttl">Hot rolled reinforcing bars</p>
+            </div>
+            <div class="col-md-4">
+              <p class="tab-ttl">Welding equipment</p>
+              <ul class="tab-list">
+                <li><a href="#">Wire cage welding equipment</a></li>
+                <li><a href="#">Mesh welding equipment</a></li>
+              </ul>
+              <p class="tab-ttl">Nails</p>
+              <p class="tab-ttl">Wire rod</p>
+              <p class="tab-ttl">Abrasive</p>
+              <ul class="tab-list">
+                <li><a href="#">Steel cut wire</a></li>
+                <li><a href="#">Iron and steel shot and grit</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="search-form-desk">
+      <div class="contain">
+        <form action="/" class="top-search">
+          <div class="close-search"></div>
+          <input type="text" class="form-control" name="name" value="" placeholder="Search">
+        </form>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+
+    <section class="product-section">
+      <div class="sect-ttl-wrap mobile-btn" data-toggle="collapse" data-target="#marcketBlock" aria-expanded="false" aria-controls="marcketBlock" role="button">
+        <div class="contain">
+          <p class="sect-ttl">Work at Anordica <i class="icom-smbl-arrow-right white-icon pull-right visible-xs"></i></p>
+        </div>
+      </div>
+      <div class="collapse in" id="marcketBlock">
+        <div class="contain">
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="content-block">
+                <img src="./images/jobApp-img-1.jpg" alt="">
+                <div class="content-txt-block collapse in" id="descriptiontBlock">
+                  <br>
+                  <p>Mader modipsum consequibusa coreperio consecearit, occuptas quiatum quo inte labore di offi cipiet andae libea que volestent et et a volorer untion cupta dolor re et volorit mi, natat fugia sitatem aut vellest es aut volor as aceped maximint officto est, sit aut pelia sitis eos eturia deritatur mil in rem remque incte corit dellupt assitem autem reperferum fuga.</p>
+
+                  <h3>Subhead about working for Anordica </h3>
+                  <p>Comnis ad modipsum consequibusa coreperio consecearit, occuptas quiatum quo inte labore di offi aut vellest es aut volor as aceped maximint officto est, sit aut pelia sitis eos eturia deritatur mil in rem remque incte corit dellupt assitem autem reperferum fuga.</p>
+
+                  <p>Catis volutem vento quis quoditatiat eosam qui dio et vollitibus ium voluptatem Itatur.</p>
+                </div>
+                <div class="bottom-close white-block visible-xs" data-toggle="collapse" data-target="#descriptiontBlock" aria-expanded="false" aria-controls="descriptiontBlock" role="button"><span class="mob-ttl">Description</span><span>Close</span> <i class="icom-smbl-arrow-right black-icon pull-right hidden-md hidden-lg"></i></div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <img src="./images/jobApp-img-2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-section">
+
+      <div class="sect-ttl-wrap mobile-btn" data-toggle="collapse" data-target="#anotherBlock" aria-expanded="false" aria-controls="anotherBlock" role="button">
+        <div class="contain">
+          <p class="sect-ttl">Would you like to join our team? <i class="icom-smbl-arrow-right white-icon pull-right visible-xs"></i></p>
+        </div>
+      </div>
+      <div class="collapse in" id="anotherBlock">
+        <div class="contain">
+          <div class="row">
+            <div class="col-sm-8 content-txt-block">
+              <h3>We are growing and looking for great talent</h3>
+              <p>Anordica is very interested in getting in touch with skilled and committed people, experienced in the metal industry and trade..</p>
+
+              <p><b>Please fill out the following form and we will get back to you shortly. Thank you!</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-section message-block">
+      <div class="contain message-bl-layer message-bl-lg-layer hide">
+        <div class="msg-txt text-center clearfix">
+          <p>Thank you! Your message has been sent.</p>
+          <p>We will be in touch!</p>
+          <div class="col-sm-4 col-sm-offset-4">
+            <button type="button" class="btn btn-warning btn-download">Send another offer</button>
+          </div>
+        </div>
+      </div>
+      <div class="contain contact-form">
+        <form class="" action="/">
+          <div class="row clearfix">
+            <div class="col-sm-6">
+              <p class="form-ttl">I think I would make a valuable addition to you team</p>
+            </div>
+          </div>
+          <div class="row clearfix">
+            <div class="col-sm-4 col-sm-offset-4">
+              <ul class="contact-social">
+                <li>Autofil with</li>
+                <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                <li><a href="#"><i class="icon-facebook"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row clearfix">
+            <div class="col-sm-4 input-layer">
+              <div class="form-group">
+                <div class="custom-select">
+                  <input type="text" class="form-control" placeholder="Select your professional area:"  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <ul class="select-drop dropdown-menu">
+                    <li>Sales</li>
+                    <li>Logistics</li>
+                    <li>Administration</li>
+                    <li>Economy</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="name" class="form-control" id="" name="" placeholder="Other:">
+              </div>
+              <div class="form-group">
+                <div class="custom-file-wrap">
+                  <input type="name" class="changeInput form-control" id="" name="" placeholder="+ Add cover letter">
+                  <input type="file" class="fileHidden hidden">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="custom-file-wrap">
+                  <input type="name" class="changeInput form-control" id="" name="" placeholder="+ Upload your CV">
+                  <input type="file" class="fileHidden hidden">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 input-layer">
+              <div class="form-group">
+                <input type="name" class="form-control" id="" name="" placeholder="Name*:">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="" name="" placeholder="E-mail*:">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="" name="" placeholder="Phone (optional):">
+              </div>
+              <div class="form-group">
+                <p class="help-txt pull-left">Required items indicates with *</p>
+              </div>
+            </div>
+            <div class="col-sm-4 input-layer">
+              <div class="form-group">
+                <textarea name="name" class="form-control large" placeholder="Message:" rows="3" cols="6"></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-warning pull-right">Submit</button>
+              </div>
+            </div>
+            <div class="col-sm-12">
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="big-logo-wrap">
+      <div class="contain text-center">
+        <img src="./images/big-logo.png" alt="">
+      </div>
+    </div>
+    <div class="bottom-layer">
+      <div class="contain">
+        <div class="row">
+          <div class="col-md-3">
+            <p class="foot-ttl">Navigate</p>
+            <ul class="foot-navbar">
+              <li><a href="#">Company <i class="icon-language"></i></a></li>
+              <li><a href="#">Application</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Our suppliers</a></li>
+              <li><a href="#">New partner</a></li>
+              <li><a href="#">Media</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <p class="foot-ttl">Anordica in short</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eaque quia aperiam vel veritatis placeat dolorum odit ullam accusantium amet cumque hic cum illum at, quasi adipisci id eligendi numquam.</p>
+          </div>
+          <div class="col-md-3">
+            <p class="foot-ttl">Contact</p>
+            <ul class="foot-contact">
+              <li>Anordica AB, Headquarters</li>
+              <li>Phone: <a href="#">+46 40 96 09 80</a></li>
+              <li><a href="mailto:info@anordica.se">info@anordica.se</a></li>
+            </ul>
+            <ul class="foot-contact">
+              <li>Anordica Sp z o.o., Poland</li>
+              <li>Phone / fax: <a href="#">+48/42/677 04 24</a></li>
+              <li>Mobile: <a href="#">+48 66 22 78 789</a></li>
+              <li><a href="mailto:tatiana.michalczuk@anordica.se">tatiana.michalczuk@anordica.se</a></li>
+            </ul>
+            <ul class="foot-contact">
+              <li>Anordica AB, Finland</li>
+              <li>Phone: <a href="#">-358 40 844 33 02</a></li>
+              <li><a href="mailto:nisse@anordica.se">nisse@anordica.se</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <p class="foot-ttl text-center">Follow us!</p>
+            <ul class="social">
+              <li><a href="#"><i class="icon-linkedin"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="privacy text-center">&copy; Anordica AB. All rights reserved 2016  |  <a href="#">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
